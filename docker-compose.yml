@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  user-service:
+    image: asset-manager-service:0.0.1
+    build:
+      context: ./asset-manager-service
+      dockerfile: Dockerfile
+    ports:
+      - "8092:8092"
+    networks:
+      - local-network
+
+networks:
+  local-network:
+    external: true
