@@ -20,4 +20,7 @@ public class Ativo {
     @Column(name = "NOME")
     String nome;
 
+    @Column(name = "STATUS")
+    String status;
+
 }

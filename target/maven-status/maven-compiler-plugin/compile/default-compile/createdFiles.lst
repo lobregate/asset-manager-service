@@ -1,0 +1,6 @@
+com\fiapst1\asset_manager_service\service\AtivoService.class
+com\fiapst1\asset_manager_service\controller\AtivoController.class
+com\fiapst1\asset_manager_service\dtos\AssetDto.class
+com\fiapst1\asset_manager_service\AssetManagerServiceApplication.class
+com\fiapst1\asset_manager_service\repository\AtivoRepository.class
+com\fiapst1\asset_manager_service\domain\Ativo.class
